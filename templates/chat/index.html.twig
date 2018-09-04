@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+
+{% block chatbot %}
+
+    {% block messages %}
+
+    {% endblock %}
+
+    {% block sendblock %}
+
+        <form>
+            <input name="message" type="text">
+            <button type="submit">envoyer</button>
+        </form>
+
+    {% endblock %}
+
+
+{% endblock %}
+
+
+{% endblock %}
